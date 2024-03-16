@@ -1,0 +1,33 @@
+/* Normalize CSS rules */
+*, ::before, ::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+/* Set default font size */
+html {
+    font-size: 62.5%;
+}
+
+/* Set font family */
+body {
+    font-family: Baskervville, serif;
+    color: linen;
+    background-color: rgb(20, 30, 40);
+}
+
+/* Set h1 font family */
+h1 {
+    font-family: "Anton", sans-serif;
+}
+
+/* Set h2 - h6 font family */
+h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: linen;
+}
