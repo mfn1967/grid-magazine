@@ -128,3 +128,24 @@ hr {
 .quote::after {
     content: ' "';
 }
+
+/* Styling the lists inside of the text with images section !!! This section inherits text section rules!!! */
+.text-with-images {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 3rem;
+    margin-bottom: 3rem;
+}
+
+.lists {
+    list-style-type: none;
+    margin-top: 2rem;
+}
+
+.lists li {
+    margin-bottom: 1.5rem;
+}
+
+.list-title, .list-subtitle {
+    color: #00beef;
+}
