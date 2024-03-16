@@ -51,6 +51,10 @@ main {
 
 .text {
     grid-column: 2 / 3;
+    font-size: 1.8rem;
+    letter-spacing: 0.6px;
+    column-width: 25rem;
+    text-align: justify;
 }
 
 /* Hero Section layout */
@@ -62,6 +66,11 @@ main {
 img {
     width: 100%;
     object-fit: cover;
+}
+
+hr {
+    margin: 1.5rem 0;
+    border: 1px solid rgba(120, 120, 120, 0.6);
 }
 
 .hero-title {
@@ -96,4 +105,26 @@ img {
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
     align-items: center;
+}
+
+.first-paragraph::first-letter {
+    font-size: 6rem;
+    color: orangered;
+    float: left;
+    margin-right: 1rem;
+}
+
+.quote {
+    color: #00beef;
+    font-size: 2.4rem;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+}
+
+.quote::before {
+    content: '" ';
+}
+
+.quote::after {
+    content: ' "';
 }
